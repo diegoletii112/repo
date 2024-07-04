@@ -1,0 +1,94 @@
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.tauth {
+  margin-bottom: 15px;
+  font-size: large;
+}
+.addingAuth {
+  text-align: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.editButt {
+  padding: 6px 14px;
+  background-color: #ffbc2c;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-right: 10px;
+}
+
+.delButt {
+  padding: 6px 14px;
+  background-color: #ff4646;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.addAuth {
+  margin-top: 15px;
+  padding: 6px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0a0a0a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #2c2c2c;
+  text-align: left;
+}
+
+th {
+  background-color: #c2c2c2;
+  color: #333;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
